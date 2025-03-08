@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+.Navbar-main {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 50px;
+
+}
+
+@media(max-width : 991px) {
+    .Navbar-main {
+
+        top: 0px;
+
+    }
+}
+
+.LOGOSSS {
+    width: 15%;
+}
+
+@media(max-width : 767px) {
+    .LOGOSSS {
+        width: 30%;
+    }
+}
+
+@media(max-width : 425px) {
+    .LOGOSSS {
+        width: 50%;
+    }
+
+    .take-sollutopnnnjabdhbs {
+        display: none;
+    }
+}
